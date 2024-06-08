@@ -1,0 +1,78 @@
+/* public/css/custom.css */
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('Vazirmatn[wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: Vazirmatn, sans-serif;
+}
+
+
+
+@media only screen and (min-width: 767px) {
+.main-sidebar {
+  right: 0;
+}
+
+.content-wrapper {
+  margin-right: 230px;
+  margin-left: 0;
+}
+
+.main-header .navbar, .main-footer {
+  margin-left: 0;
+  margin-right: 230px;
+  transition: margin-right 0.3s ease-in-out;
+}
+
+.main-header .sidebar-toggle {
+  float: right;
+}
+
+.sidebar-toggle {
+  margin-right: -48px;
+}
+
+
+  .sidebar-mini.sidebar-collapse .content-wrapper, 
+  .sidebar-mini.sidebar-collapse .main-footer,
+  .sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-right: 50px;
+    margin-left: 0 !important;
+  }
+
+
+
+.pull-right {
+  float: left !important;
+}
+
+.pull-left {
+  float: right !important;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar-menu {
+padding: 10px;}
+
+
+  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+  }
+
+}
+
+
+.sidebar-menu li > a > .fa-angle-left {
+  left: 10px;
+  right: auto;
+}
